@@ -17,6 +17,7 @@ dependencies {
     implementation("io.micronaut.serde:micronaut-serde-jackson")
     implementation("io.micronaut:micronaut-http-server-netty")
     compileOnly("io.micronaut:micronaut-http-client")
+    compileOnly("io.micronaut.reactor:micronaut-reactor")
     runtimeOnly("ch.qos.logback:logback-classic")
     testImplementation("io.micronaut:micronaut-http-client")
     testImplementation(platform("com.agorapulse:gru-bom:2.0.6"))
